@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- sweep2sleep -->
+    <string-array name="s2sArray">
+        <item>Disabilitato</item>
+        <item>Scorri verso destra</item>
+        <item>Scorri verso sinistra</item>
+        <item>Scorri verso destra o sinistra</item>
+    </string-array>
+    <string-array name="s2sValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- spectrum profiles -->
+    <string-array name="spectrum_profiles">
+        <item>Bilanciato</item>
+        <item>Prestazioni</item>
+        <item>Batteria</item>
+        <item>Giochi</item>
+    </string-array>
+    <string-array name="spectrum_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
