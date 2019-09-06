@@ -389,7 +389,5 @@ PRODUCT_PACKAGES += \
 #PRODUCT_BOOT_JARS += \
 #    WfdCommon
 
-BUILD_BROKEN_PHONY_TARGETS := true
-
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/msm8998-common/msm8998-common-vendor.mk)
