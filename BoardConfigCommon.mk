@@ -60,6 +60,9 @@ BOARD_KERNEL_CMDLINE += swiotlb=2048
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive androidboot.veritymode=eio
 
+BUILD_BROKEN_PHONY_TARGETS := true
+TARGET_KERNEL_CLANG_VERSION := 9.0.3
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
 
