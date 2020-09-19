@@ -345,14 +345,11 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
-BOARD_USES_QCOM_HARDWARE := true
 # Soong namespaces
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8998
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/qcom-caf/msm8998/audio \
-    hardware/qcom-caf/msm8998/display \
-    hardware/qcom-caf/msm8998/media \
-    hardware/qcom-caf/wlan/
+    $(LOCAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
